@@ -8,6 +8,15 @@ Create a django project
     
     django-admin startproject chemondis
      
- Run the server
+Run the server
  
     python manage.py runserver
+
+First available route
+
+    http://127.0.0.1:8000/admin
+    
+Create an app
+
+    python manage.py startapp polls
+    
