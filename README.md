@@ -20,3 +20,6 @@ Create an app
 
     python manage.py startapp polls
     
+Create needed database tables
+
+     python manage.py migrate    
