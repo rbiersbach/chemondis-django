@@ -20,6 +20,14 @@ Create an app
 
     python manage.py startapp polls
     
-Create needed database tables
+Migrate to database
 
-     python manage.py migrate    
+    python manage.py migrate
+     
+Make migrations
+
+    python manage.py makemigrations polls 
+    
+Show sql of certain migration
+
+    python manage.py sqlmigrate polls 0001
