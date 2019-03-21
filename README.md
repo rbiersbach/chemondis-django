@@ -1,5 +1,7 @@
 # Django Tutorial
 
+## Django project and application
+
 Check django version
 
     python -m django --version
@@ -20,6 +22,8 @@ Create an app
 
     python manage.py startapp polls
     
+## Database handling
+
 Migrate to database
 
     python manage.py migrate
@@ -31,3 +35,15 @@ Make migrations
 Show sql of certain migration
 
     python manage.py sqlmigrate polls 0001
+    
+Using the shell
+    
+    python manage.py shell
+    
+## Administration
+
+Create a user
+
+    python manage.py createsuperuser
+    
+    
